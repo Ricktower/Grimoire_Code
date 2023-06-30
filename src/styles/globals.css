@@ -1,0 +1,14 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Emigre Eight";
+  src: url("/fonts/Emigre-Eight.otf") format("opentype");
+}
+
+@layer base {
+  body {
+    @apply bg-[url('/home-bg-full-blur.png')] bg-[length:200%_150%] bg-center bg-no-repeat;
+  }
+}
